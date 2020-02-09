@@ -7,7 +7,7 @@ Study case of Flask Python micro framework.
 - install **virtualenv**
 
 ```sh
-pip install virtualenv
+sudo pip install virtualenv
 ```
 
 - Install Flask in virtual environment:
@@ -15,6 +15,12 @@ pip install virtualenv
 ```sh
 virtualenv flask
 flask/bin/pip install flask
+```
+
+- run application
+
+```sh
+./app.py
 ```
 
 
